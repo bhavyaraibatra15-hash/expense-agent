@@ -1,0 +1,16 @@
+[project]
+name = "submission-frontend"
+version = "0.1.0"
+description = "Manager dashboard for ambient expense agent"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "google-adk[gcp]>=2.0.0,<3.0.0",
+    "google-cloud-aiplatform>=1.56.0",
+    "jinja2>=3.1.2",
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
